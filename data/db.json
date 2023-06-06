@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "Saria's Diary",
+      "body": "Today Link left the forest.",
+      "author": "Saria",
+      "id": 1
+    },
+    {
+      "title": "Marin's Diary",
+      "body": "Today a boy named Link washed up on the shore.",
+      "author": "Marin",
+      "id": 2
+    }
+  ]
+}
