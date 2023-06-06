@@ -19,7 +19,7 @@ const Home = () => {
     return (
         <div className="home">
             <h2>React Portfolio</h2>
-            <h3>Here's the Project 3 deployed link: https://boiling-reef-62224.herokuapp.com/</h3>
+            <h3>Here's the Project 3 deployed link: <a href="https://boiling-reef-62224.herokuapp.com/">boiling-reef-62224.herokuapp.com</a></h3>
             {/* <p>{ name }</p> */}
             {/* <button onClick={handleClick}>Change Waifu</button>
             <button onClick={() => handleClickAgain(name)}>Console Log Greeting</button> */}
