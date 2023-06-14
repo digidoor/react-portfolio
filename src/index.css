@@ -63,8 +63,18 @@ h1.content{ /* stupid (*) selector ruins this */
 
 img {
   padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 p.project {
   color: #4eaf90;
+}
+
+div.project > p {
+  font-size: 15px;
+}
+
+div.resume > h3 {
+  margin-top: 10px;
+  margin-bottom: 4px;
 }

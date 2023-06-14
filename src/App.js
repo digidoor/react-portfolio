@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Pokemon from './pages/Pokemon';
 import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import Blogs from './pages/Blogs';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 				<Route path='/pokes' element={<Pokemon />} />
 				<Route path='/contact' element={<Contact />} />
 				<Route path='/blogs' element={<Blogs />} />
+				<Route path='/resume' element={<Resume />} />
 			</Routes>
 			<Footer />
 		</>

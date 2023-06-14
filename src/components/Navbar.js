@@ -21,6 +21,7 @@ const Navbar = () =>
 		<nav className="navbar">
 			<h1> Digidoor's page </h1>
 			<div className="links">
+				<StyledLink to="/resume" >Resume</StyledLink>
 				<StyledLink to="/contact" >Contact</StyledLink>
 				<StyledLink to="/pokes" >Pokes</StyledLink>
 				<StyledLink to="/" >Home</StyledLink>

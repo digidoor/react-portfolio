@@ -5,22 +5,33 @@ const Home = () => {
 	const [projects] = useState([
 		{
 			name: 'coding-quiz',
-			description: 'MERN Stack',
-			repo: "https://github.com",
-			link: "https://github.com"
+			description: 'A Vanilla Javascript Quiz',
+			repo: "https://github.com/digidoor/coding-quiz",
+			link: "https://digidoor.github.io/coding-quiz/"
+		},
+		{
+			name: 'password-generator',
+			description: 'Generate Passwords with Javascript',
+			repo: "https://github.com/digidoor/password-generator",
+			link: "https://digidoor.github.io/password-generator"
+		},
+		{
+			name: 'notedV2',
+			description: 'A Multi-Feature React App With a MongoDB Backend',
+			repo: "https://github.com/digidoor/notedV2",
+			link: "https://boiling-reef-62224.herokuapp.com/"
 		},
 	]);
 
 	return (
 		<div className="content">
-			<h2>Portfolio</h2>
+			<h1>Portfolio</h1>
 			{projects.map((project, idx) => (
 				<Project
 					project={project}
 					key={"project" + idx}
 				/>
 			))}
-			<h3>Here's the Project 3 deployed link: <a href="https://boiling-reef-62224.herokuapp.com/">boiling-reef-62224.herokuapp.com</a></h3>
 		</div>
 	);
 }
