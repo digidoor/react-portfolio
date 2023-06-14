@@ -2,8 +2,11 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const StyledLink = styled(Link)`
-	color: Red;
-	margin: 1rem;
+	margin: 0.5rem;
+	color: white;
+	background-color: #46b392;
+	border-radius: 8px;
+	&:hover { background-color: #033d34; }
 `;
 
 const Navbar = () =>
@@ -12,16 +15,8 @@ const Navbar = () =>
 		<nav className="navbar">
 			<h1> Portfolio </h1>
 			<nav className="links">
-				<StyledLink to="/" className="entry" style={{
-					color:"white",
-					backgroundColor: "#46b392",
-					borderRadius: "8px"
-				}}>Home</StyledLink>
-				<StyledLink to="/" className="entry" style={{
-					color:"white",
-					backgroundColor: "#46b392",
-					borderRadius: "8px"
-				}}>Pokes</StyledLink>
+				<StyledLink to="/" >Home</StyledLink>
+				<StyledLink to="/" >Pokes</StyledLink>
 			</nav>
 		</nav>
 	);

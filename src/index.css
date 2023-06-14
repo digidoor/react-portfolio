@@ -5,6 +5,7 @@
   --highlight-color: #46b392;
   --base-color: #3c8da1;
   --button-back: #ffffff;
+  --test: #033d34;
 }
 
 /* base styles */
@@ -31,10 +32,6 @@
 .navbar .links .entry {
   margin-left: auto;
   color: red;
-}
-.navbar .links:hover {
-  background-color: var(--button-back);
-  border-radius: 8px;
 }
 .navbar a {
   margin-left: 16px;
