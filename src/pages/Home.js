@@ -21,6 +21,24 @@ const Home = () => {
 			repo: "https://github.com/digidoor/notedV2",
 			link: "https://boiling-reef-62224.herokuapp.com/"
 		},
+		{
+			name: 'work-day-scheduler',
+			description: 'A Simple Web-Based Schedule Utility Using jQuery',
+			repo: "https://github.com/digidoor/work-day-schedular",
+			link: "https://digidoor.github.io/work-day-schedular"
+		},
+		{
+			name: 'weather-dashboard',
+			description: 'Check and Save Weather Fetched Through an API',
+			repo: "https://github.com/digidoor/weather-dashboard",
+			link: "https://digidoor.github.io/weather-dashboard"
+		},
+		{
+			name: 'readme-generator',
+			description: 'Generate README.md files automatically via Node.js',
+			repo: "https://github.com/digidoor/readme-generator",
+			link: ""
+		},
 	]);
 
 	return (
