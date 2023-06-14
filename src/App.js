@@ -1,22 +1,18 @@
-import Navbar from './Navbar';
-import Home from './Home';
+import { Route, Routes } from "react-router-dom";
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
 
 function App() {
   const title = "Welcome to the test site";
   const likes = 50;
 
   return (
-    <div className="App">
+    <>
       <Navbar />
-      <div className="content">
-        <h1>{ title }</h1>
-        <p>Liked { likes } times</p>
-        <p>{"String" + " " + "Concatenation"}</p>
-        <p>{ Math.random()*100 }</p>
-        <br/>
-        <Home />
-      </div>
-    </div>
+      <Routes>
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </>
   );
 }
 
