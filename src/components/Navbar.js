@@ -21,8 +21,9 @@ const Navbar = () =>
 		<nav className="navbar">
 			<h1> Portfolio </h1>
 			<div className="links">
-				<StyledLink to="/" >Home</StyledLink>
+				<StyledLink to="/contact" >Contact</StyledLink>
 				<StyledLink to="/pokes" >Pokes</StyledLink>
+				<StyledLink to="/" >Home</StyledLink>
 			</div>
 		</nav>
 	);
