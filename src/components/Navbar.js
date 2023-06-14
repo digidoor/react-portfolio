@@ -22,7 +22,7 @@ const Navbar = () =>
 			<h1> Portfolio </h1>
 			<div className="links">
 				<StyledLink to="/" >Home</StyledLink>
-				<StyledLink to="/" >Pokes</StyledLink>
+				<StyledLink to="/pokes" >Pokes</StyledLink>
 			</div>
 		</nav>
 	);
