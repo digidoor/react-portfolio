@@ -6,7 +6,10 @@ const StyledLink = styled(Link)`
 	color: white;
 	background-color: #46b392;
 	border-radius: 8px;
-	&:hover { background-color: #033d34; }
+	&:hover {
+		color: #46b392;
+		background-color: #033d34;
+	}
 `;
 
 const Navbar = () =>
@@ -14,10 +17,10 @@ const Navbar = () =>
 	return (
 		<nav className="navbar">
 			<h1> Portfolio </h1>
-			<nav className="links">
+			<div className="links">
 				<StyledLink to="/" >Home</StyledLink>
 				<StyledLink to="/" >Pokes</StyledLink>
-			</nav>
+			</div>
 		</nav>
 	);
 };

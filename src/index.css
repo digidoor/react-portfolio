@@ -29,17 +29,10 @@
 .navbar .links {
   margin-left: auto;
 }
-.navbar .links .entry {
-  margin-left: auto;
-  color: red;
-}
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
-}
-.navbar a:hover {
-  color: var(--highlight-color);
 }
 .content {
   max-width: 600px;
