@@ -17,7 +17,7 @@ const Home = () => {
     // }
 
     return (
-        <div className="home">
+        <div className="content">
             <h2>React Portfolio</h2>
             <h3>Here's the Project 3 deployed link: <a href="https://boiling-reef-62224.herokuapp.com/">boiling-reef-62224.herokuapp.com</a></h3>
             {/* <p>{ name }</p> */}

@@ -10,11 +10,11 @@ const Navbar = () =>
                     backgroundColor: "#46b392",
                     borderRadius: "8px"
                 }}>Home</Link>
-                <a href="/create" style={{
+                <Link to="/" className="entry" style={{
                     color:"white",
                     backgroundColor: "#46b392",
                     borderRadius: "8px"
-                }}>New Blog</a>
+                }}>Pokes</Link>
             </nav>
         </nav>
     );
