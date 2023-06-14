@@ -8,7 +8,6 @@
   --test: #033d34;
 }
 
-/* base styles */
 * {
   margin: 0;
   font-family: "Quicksand";
@@ -35,6 +34,10 @@
   padding: 20px;
 }
 
+h1.content{ /* stupid * selector ruins this */
+  margin-bottom: 12px;
+}
+
 .footer {
   text-align: center;
 }
@@ -56,13 +59,4 @@
   font-size: 20px;
   color: var(--highlight-color);
   margin-bottom: 8px;
-}
-
-.pokemon {
-  color: red;
-}
-
-p.pokemon {
-  margin-top: 1rem;
-  color: red;
 }
