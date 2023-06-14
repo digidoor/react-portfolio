@@ -5,9 +5,9 @@ const Project = ({project}) => {
 
 	return (
 		<div className="content project" key={name}>
-			<img src={require(`../assets/${name}.png`).default} />
+			{/* <img src={require(`../assets/${name}.png`).default} /> */}
 			<img src={require(`../assets/${name}.png`)} />
-			<img src={require("../assets/" + name + ".png").default} />
+			{/* <img src={require("../assets/" + name + ".png").default} /> */}
 			<img src={require("../assets/" + name + ".png")} />
 			<img src={require(`../assets/${name}.png`)} />
 			<p>test</p>
