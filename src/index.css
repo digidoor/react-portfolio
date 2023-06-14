@@ -19,7 +19,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 600px; /* fix this up later, something by percent */
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
@@ -28,11 +28,6 @@
 }
 .navbar .links {
   margin-left: auto;
-}
-.navbar a {
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 6px;
 }
 .content {
   max-width: 600px;
