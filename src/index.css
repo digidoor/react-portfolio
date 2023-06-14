@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+:root
+{
+  --highlight-color: #46b392;
+  --base-color: #3c8da1;
+}
+
 /* base styles */
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #3c8da1;
+  color: var(--base-color);
   background-color: #333;
 }
 .navbar {
@@ -16,7 +22,7 @@
   border-bottom: 1px solid #f2f2f2;
 }
 .navbar h1 {
-  color: #f1356d;
+  color: var(--highlight-color);
 }
 .navbar .links {
   margin-left: auto;
@@ -27,7 +33,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color: #f1356d;
+  color: var(--highlight-color);
 }
 .content {
   max-width: 600px;
@@ -39,13 +45,13 @@
 .blog-preview {
   padding: 10px 16px;
   margin: 20px 0;
-  border-bottom: 1px solid #3c8da1;
+  border-bottom: 1px solid var(--base-color);
 }
 .blog-preview:hover {
   box-shadow: 3px 3px 3px rgba(65, 125, 185, 0.9);
 }
 .blog-preview h2 {
   font-size: 20px;
-  color: #f1356d;
+  color: var(--highlight-color);
   margin-bottom: 8px;
 }
