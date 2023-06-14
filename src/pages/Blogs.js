@@ -27,7 +27,7 @@ const Blogs = () => {
             { isPending && <h1>Loading...</h1> }
             { blogs && <BlogList blogs={blogs} title="Zelda blogs"/>}
             {/* { blogs && <BlogList blogs={blogs.filter((blog)=>blog.author === "Saria")} title="Saria's Blog"/>} */}
-			<h4>
+			<h4 style={{color: 'white'}}>
 				This page uses a local json file to emulate a database. If you are viewing This
 				on a deployed github pages site, you will see a "Failed to Fetch" error instead.
 				I keep this page for my own local testing in learning new things in React. There

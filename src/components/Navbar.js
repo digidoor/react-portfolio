@@ -19,7 +19,7 @@ const Navbar = () =>
 {
 	return (
 		<nav className="navbar">
-			<h1> Portfolio </h1>
+			<h1> Digidoor's page </h1>
 			<div className="links">
 				<StyledLink to="/contact" >Contact</StyledLink>
 				<StyledLink to="/pokes" >Pokes</StyledLink>
