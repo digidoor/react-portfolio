@@ -4,8 +4,12 @@ const Navbar = () =>
     return (
         <nav className="navbar">
             <h1> Portfolio </h1>
-            <nav className="link">
-                <Link to="/">Home</Link>
+            <nav className="links">
+                <Link to="/" className="entry" style={{
+                    color:"white",
+                    backgroundColor: "#46b392",
+                    borderRadius: "8px"
+                }}>Home</Link>
                 <a href="/create" style={{
                     color:"white",
                     backgroundColor: "#46b392",
