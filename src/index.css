@@ -30,9 +30,17 @@
   margin-left: auto;
 }
 .content {
-  max-width: 600px;
+  max-width: 800px;
   margin: 40px auto;
   padding: 20px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer a {
+  font-size: 10px;
 }
 
 /* blog previews / list */
