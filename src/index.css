@@ -34,7 +34,7 @@
   padding: 10px;
 }
 
-h1.content{ /* stupid * selector ruins this */
+h1.content{ /* stupid (*) selector ruins this */
   margin-bottom: 12px;
 }
 
@@ -59,4 +59,12 @@ h1.content{ /* stupid * selector ruins this */
   font-size: 20px;
   color: var(--highlight-color);
   margin-bottom: 8px;
+}
+
+img {
+  padding-left: 2rem;
+}
+
+p.project {
+  color: #4eaf90;
 }

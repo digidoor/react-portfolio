@@ -6,8 +6,8 @@ const Home = () => {
 		{
 			name: 'coding-quiz',
 			description: 'MERN Stack',
-			link: "https://github.com",
-			repo: "https://github.com"
+			repo: "https://github.com",
+			link: "https://github.com"
 		},
 	]);
 
