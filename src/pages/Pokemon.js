@@ -34,7 +34,7 @@ const Pokemon = () =>
 				<button type="submit">Search</button>
                 {/* {error && (<div>Something went wrong...</div>)} */}
             </form>
-            <p>Enter a pokemon name or a pokedex number between 0 and 1010 to get a pokemon.</p>
+            <p>Enter a pokemon name or a pokedex number between 1 and 1010 to get a pokemon.</p>
 			<p>Leave blank for a random pokemon.</p>
 		</div>
 	);
