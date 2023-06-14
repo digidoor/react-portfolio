@@ -5,7 +5,7 @@ A portfolio of my webdev projects using react and deployed to github pages.
 [license info](#license)
 
 ## Here's what it looks like:
-![screenshot](readme-generator.png?raw=true "demo")
+![screenshot](react-portfolio.png?raw=true "demo")
 ## Installation
 To install dependencies, run the following:
 ```bash
