@@ -21,10 +21,26 @@ body {
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
+
+p {
+  margin: 0;
+}
+
+img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.content .project {
+  margin: 0;
+}
+
 .navbar h1 {
+  margin: 0;
   color: var(--highlight-color);
 }
 .navbar .links {
+  margin: 0;
   margin-left: auto;
 }
 .content {
@@ -34,7 +50,9 @@ body {
 }
 
 h1.content{ /* stupid (*) selector ruins this */
+  margin: 0;
   margin-bottom: 12px;
+  color: red;
 }
 
 .footer {
@@ -98,6 +116,7 @@ div.contact > h3 > a {
 
 div.project > h3 {
   margin-bottom: 8px;
+  margin-top: 0;
   color: cornsilk;
 }
 
