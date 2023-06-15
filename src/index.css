@@ -7,7 +7,7 @@
   --test: #033d34;
 }
 
-* {
+body {
   margin: 0;
   font-family: "Quicksand";
   color: var(--base-color);
