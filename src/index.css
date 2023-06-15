@@ -67,18 +67,13 @@ div.content {
   padding: 10px;
 }
 
-h1.content{ /* stupid (*) selector ruins this */
-  margin: 0;
-  margin-bottom: 12px;
-  color: red;
-}
-
 .footer {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .footer a {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .diary-preview {
@@ -107,15 +102,6 @@ img {
   padding-right: 2rem;
 }
 
-div.project > p {
-  font-size: 15px;
-}
-
-div.project > p {
-  font-weight: 600;
-  margin-left: 12px;
-}
-
 div.project > p > a {
   color: cornflowerblue;
   font-weight: 400;
@@ -124,14 +110,6 @@ div.project > p > a {
 div.resume > h3 {
   margin-top: 10px;
   margin-bottom: 4px;
-}
-
-div.contact > h3 {
-  margin-top: 10px;
-}
-
-div.contact > h3 > a {
-  color: cornsilk;
 }
 
 div.project > h3 {
@@ -146,9 +124,35 @@ div.project > img {
 }
 
 div.footer > h6 {
-  margin-bottom: 0;
+  margin-bottom: 8px;
+  font-size: 13px;
 }
 
 div.pokemon > p {
   font-weight: 600;
+}
+
+div.content > p {
+  font-weight: 500;
+  color: var(--highlight-color);
+}
+
+div.content > p > a {
+  color: cornflowerblue;
+}
+
+div.contact > h3 {
+  color: var(--highlight-color);
+  margin-top: 10px;
+}
+
+div.contact > h3 > a {
+  color: cornsilk;
+}
+
+div.project > p {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 12px;
+  color: cornflowerblue;
 }

@@ -44,6 +44,12 @@ const Home = () => {
 	return (
 		<div className="content">
 			<h1 className="portfolio">Portfolio</h1>
+			<p>Below are a few of the projects I have completed using various 
+				web technologies. Note that this website is itself a modular React
+				App using modern web development principles and dynamic rendering.
+			</p><p>&nbsp;</p>
+			<p>The source for this website can be found <a href=
+			"https://github.com/digidoor/react-portfolio">here</a>.</p>
 			{projects.map((project, idx) => (
 				<Project
 					project={project}
