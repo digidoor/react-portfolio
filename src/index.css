@@ -47,9 +47,11 @@ img {
   margin-bottom: 8px;
 }
 
-.content .project {
-  margin: 0;
+div.content {
+  margin-top: 0;
 }
+
+.portfolio { margin-bottom: 8px; }
 
 .navbar h1 {
   margin: 0;
@@ -105,16 +107,18 @@ img {
   padding-right: 2rem;
 }
 
-p.project {
-  color: #4eaf90;
-}
-
 div.project > p {
   font-size: 15px;
 }
 
+div.project > p {
+  font-weight: 600;
+  margin-left: 12px;
+}
+
 div.project > p > a {
   color: cornflowerblue;
+  font-weight: 400;
 }
 
 div.resume > h3 {
@@ -143,4 +147,8 @@ div.project > img {
 
 div.footer > h6 {
   margin-bottom: 0;
+}
+
+div.pokemon > p {
+  font-weight: 600;
 }

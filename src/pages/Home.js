@@ -43,7 +43,7 @@ const Home = () => {
 
 	return (
 		<div className="content">
-			<h1>Portfolio</h1>
+			<h1 className="portfolio">Portfolio</h1>
 			{projects.map((project, idx) => (
 				<Project
 					project={project}
