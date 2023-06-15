@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Pokemon from './pages/Pokemon';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import Blogs from './pages/Blogs';
+import Zelda from './pages/Zelda';
 
 function App() {
 	const title = "Welcome to the test site";
@@ -18,7 +18,7 @@ function App() {
 				<Route path='/' element={<Home />} />
 				<Route path='/pokes' element={<Pokemon />} />
 				<Route path='/contact' element={<Contact />} />
-				<Route path='/blogs' element={<Blogs />} />
+				<Route path='/zelda' element={<Zelda />} />
 				<Route path='/resume' element={<Resume />} />
 			</Routes>
 			<Footer />

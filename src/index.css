@@ -4,7 +4,6 @@
 {
   --highlight-color: #46b392;
   --base-color: #3c8da1;
-  --button-back: #ffffff;
   --test: #033d34;
 }
 
@@ -46,15 +45,22 @@ h1.content{ /* stupid (*) selector ruins this */
   font-size: 10px;
 }
 
-.blog-preview {
+.diary-preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid var(--base-color);
 }
-.blog-preview:hover {
-  box-shadow: 3px 3px 3px rgba(65, 125, 185, 0.9);
+
+div.diary-preview > p {
+  margin-left: 10px;
+  margin-top: 6px;
 }
-.blog-preview h2 {
+
+.diary-preview:hover {
+  box-shadow: 3px 3px 3px rgba(6, 54, 102, 0.9);
+}
+
+.diary-preview h2 {
   font-size: 20px;
   color: var(--highlight-color);
   margin-bottom: 8px;
@@ -93,4 +99,9 @@ div.contact > h3 > a {
 div.project > h3 {
   margin-bottom: 8px;
   color: cornsilk;
+}
+
+div.project > img {
+  max-width: 80%;
+  max-height: 400px;
 }
