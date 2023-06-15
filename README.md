@@ -14,7 +14,7 @@ npm i
 ## Usage
 This is a live website; the only user functionality is in the pokemon page which has ample instructions.
 
-This is deployed to github pages at the following address: https://digidoor.github.io/react-portfolio
+This is deployed to github pages at the following address: https://digidoor.github.io/react-portfolio/#/
 ## Questions or Comments?
 Simply open an issue in this repo.
 Find me at [digidoor](https://github.com/digidoor/).
