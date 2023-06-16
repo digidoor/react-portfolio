@@ -24,8 +24,8 @@ const Home = () => {
 		{
 			name: 'work-day-scheduler',
 			description: 'A Simple Web-Based Schedule Utility Using jQuery',
-			repo: "https://github.com/digidoor/work-day-schedular",
-			link: "https://digidoor.github.io/work-day-schedular"
+			repo: "https://github.com/digidoor/work-day-scheduler",
+			link: "https://digidoor.github.io/work-day-scheduler"
 		},
 		{
 			name: 'weather-dashboard',
