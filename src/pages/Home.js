@@ -56,6 +56,7 @@ const Home = () => {
 					key={"project" + idx}
 				/>
 			))}
+			<p> Also, here's a gist I wrote: <a href="https://gist.github.com/digidoor/17a6b1f74f9baf65e0387070da56a3b9">Link</a></p>
 		</div>
 	);
 }

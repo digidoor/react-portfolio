@@ -27,7 +27,7 @@ const Pokemon = () =>
 		<div className="content">
 			<h1 style={{marginBottom: 4 + 'px'}}>Pokes</h1>
 			<div className="pokemon">
-				{ pokeData ? (<img src={pokeData.sprites.front_default}></img>) : (<></>) }
+				{ pokeData ? (<img title={pokeData.species.name} src={pokeData.sprites.front_default}></img>) : (<></>) }
 				<form onSubmit={getPoke}>
 					<input placeholder="Pokemon name..." value={content} onChange={ (event) => setContent(event.target.value)}/>
 					<button type="submit">Search</button>
